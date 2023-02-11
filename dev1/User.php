@@ -1,14 +1,10 @@
 <?php
 
 class User{
-    protected $height;
-    protected $weight;
+    protected string $height;
+    protected string $weight;
     public function __construct($height,$weight){
         $this->height = $height;
         $this->weight = $weight;
     }
-}
-
-class Author extends User{
-
 }
